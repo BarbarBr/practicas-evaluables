@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles.css">
+    <!--Añadir bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <script src="./js/header.js" type="text/javascript"></script>
+    <script src="./js/footer.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- nav.product-filter>h1+.sort*2>.collection-sort+label+select>option*9 Dos div sort, ambos con label, 
+    select y option. Una vez generado, Borraríamos el cierre del primer div sort, ¿pero hay otra forma?
+    nav.product-filter>h1+.sort>.collection-sort*2+label+select>option*9 Dos div collection sort seguidos, 
+    de los cuales sólo el segundo tiene label, select y option -->
+
+    <header-component></header-component>
+
+    <nav class="product-filter">
+        <h1>Temporada de invierno</h1>
+
+        <div class="sort">
+            <div class="collection-sort">
+                <label>Filtrar por:</label>
+                <select>
+                    <option value="/">Todos los abrigos</option>
+                    <option value="/">Nueva colección</option>
+                    <option value="/">Temporada anterior</option>
+                    <option value="/">Mujeres</option>
+
+                </select>
+            </div>
+            <!--themes.shopify.com/themes/ventajas/styles/snowboards/preview-->
+            <div class="collection-sort">
+                <label>Ordenar por:</label>
+                <select>
+                    <option value="/">Destacados</option>
+                    <option value="/">Lo más vendido</option>
+                    <option value="/">Alfabéticamente, A-Z</option>
+                    <option value="/">Alfabéticamente, Z-A</option>
+                    <option value="/">Precio, más barato-más caro</option>
+                    <option value="/">Precio, más caro-ás barato</option>
+                    <option value="/">Fecha, de la más reciente a lo más antigua</option>
+                    <option value="/">Fecha, de la más antigua a la más reciente</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <section class="products">
+        <div class="product-card">
+            <!--padding:2px flex-grow:1, flex-basis: 16px display:flex-->
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Caqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="/img/pexels-oleg-magni-3582260.jpg">
+            </div>
+            <div class="product-info">
+                <h5>Chaqueta de invierno</h5>
+                <h6>35'99€</h6>
+            </div>
+        </div>
+
+    </section>
+
+    <footer-component></footer-component>
+
+</body>
+
+</html>

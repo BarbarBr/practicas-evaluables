@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700|Oswald:300,400,500,600,700|Ubuntu:300,300i,400,400i,500,500i,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="./js/header.js" type="text/javascript"></script>
+    <script src="./js/footer.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header-component></header-component>
+    <div class="container">
+        <section class="banner">
+            <h1>CodeAndCreate</h1>
+            <button type="button"> Start Slideshow </button>
+        </section>
+
+        <section class="slideshow-wrapper">
+            <div class="slideshow">
+                <div class="slide">
+                    <div class="content">
+                        <h3> West Island </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui maxime ex illo at, minus
+                            deserunt, dolore iste in incidunt hic sequi, pariatur ut. Repudiandae officia provident
+                            soluta ullam quas?</p>
+                        <button type="button"> Read more <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <h3> Wellington </h3>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam corrupti obcaecati culpa quod
+                            consequatur necessitatibus, qui quis veniam ad vel atque explicabo! Dolor nemo quaerat
+                            delectus! Architecto magni dolorem nesciunt?</p>
+                        <button type="button"> Read more <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <h3> Kingston </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rem nemo suscipit
+                            voluptatem quasi, praesentium possimus dicta facilis unde deserunt magni doloribus
+                            architecto ut quaerat aut earum eligendi, tenetur inventore.</p>
+                        <button type="button"> Read more <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <h3> Canberra </h3>
+                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit porro iste explicabo
+                            velit sapiente adipisci est. Quidem qui debitis, assumenda molestiae architecto voluptate.
+                            Illum debitis molestiae laudantium culpa quae.</p>
+                        <button type="button"> Read more <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="formulario" id="form">
+        <h2> Formulario de contacto </h2>
+
+        <form action="">
+
+            <section class="left">
+                <div class="input-container">
+                    <label for="name"> Nombre </label>
+                    <input type="text" />
+                </div>
+                <div class="input-container">
+                    <label for="age" required> Edad </label>
+                    <input type="text" />
+                </div>
+                <div class="input-container">
+                    <label for="phone"> Teléfono </label>
+                    <input type="text" />
+                </div>
+                <div class="input-container">
+                    <label for="email"> Email </label>
+                    <input type="text" />
+                </div>
+            </section>
+
+            <section class="right">
+                <div class="input-container">
+                    <label for="address"> Dirección 1 </label>
+                    <input type="text" />
+                </div>
+                <div class="input-container">
+                    <label for="address"> Dirección 2 <span>(opcional) </span></label>
+                    <input type="text" />
+                </div>
+                <div class="input-container">
+                    <label for="comments"> Sugerencias/Datos de interés </label>
+                    <textarea name="comments" id=""></textarea>
+                </div>
+            </section>
+
+            <div class="send-container">
+                <input type="submit" value="Send" onclick="return true" />
+            </div>
+
+        </form>
+    </div>
+
+    <footer-component></footer-component>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
